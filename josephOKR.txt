@@ -1,0 +1,2 @@
+Initial set up of VIVE camera and controllers - Wed by 11:59 PM (Estimate 4 hours)
+Make sure player has the ability to look around the environment with head tracking - Thu by 7 AM (Estimate 4 hours)
