@@ -1,0 +1,1 @@
+Implement camera capturing feature of capturing a scene and storing the value for later use. Have object recognition so when taking a picture. The game knows what you are taking a picture of and giving the proper clearance to continue.
