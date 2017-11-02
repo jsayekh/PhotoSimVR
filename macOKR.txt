@@ -1,0 +1,1 @@
+Implement screen flash so that user knows when the camera was clicked.
