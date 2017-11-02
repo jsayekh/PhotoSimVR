@@ -9,6 +9,7 @@ TagManager:
   - pig
   - sheep
   - chicken
+  - tiger
   layers:
   - Default
   - TransparentFX
