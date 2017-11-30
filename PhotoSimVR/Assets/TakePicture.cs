@@ -11,10 +11,7 @@ public class TakePicture : MonoBehaviour {
     GameObject cow;
     GameObject chicken;
     GameObject sheep;
-    GameObject cat;
-    GameObject tiger;
     public static bool triggered;
-    public static bool tigerPic;
     public Text display;
 
     void Start()
@@ -25,9 +22,7 @@ public class TakePicture : MonoBehaviour {
         cow = GameObject.FindGameObjectWithTag("cow");
         chicken = GameObject.FindGameObjectWithTag("chicken");
         sheep = GameObject.FindGameObjectWithTag("sheep");
-        cat = GameObject.FindGameObjectWithTag("cat");
-        tiger = GameObject.FindGameObjectWithTag("tiger");
-        tigerPic = false;
+
     }
 
     private void OnTriggerStay(Collider other)
@@ -54,15 +49,6 @@ public class TakePicture : MonoBehaviour {
             else if (other.gameObject == sheep)
             {
                 display.text = "Sheep";
-            }
-            else if (other.gameObject == cat)
-            {
-                display.text = "Cat";
-            }
-            else if (other.gameObject == tiger)
-            {
-                display.text = "Tiger";
-                tigerPic = true;
             }
             Camera_Listener.pressed = false;
        }

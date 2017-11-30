@@ -33,8 +33,6 @@
 
         protected override void Update()
         {
-            if (TakePicture.tigerPic == true)
-                open = true;
             base.Update();
             if (open)
             {
